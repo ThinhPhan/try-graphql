@@ -1,5 +1,5 @@
-CREATE DATABASE your_database;
-\connect your_database;
+CREATE DATABASE my-db;
+\connect my-db;
 CREATE SCHEMA your_schema;
 CREATE TABLE your_schema.parent_table (
     id SERIAL PRIMARY KEY,

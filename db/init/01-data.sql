@@ -1,4 +1,4 @@
-\connect your_database;
+\connect my-db;
 INSERT INTO your_schema.parent_table (name, description) VALUES
 ('Parent name 1', 'Parent description 1'),
 ('Parent name 2', 'Parent description 2'),
