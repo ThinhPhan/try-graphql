@@ -1,0 +1,17 @@
+{
+  "name": "try-grapql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "start": "DATABASE_URL=postgres://first:first@localhost:5432/power node express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "postgraphile": "^4.4.0"
+  }
+}
